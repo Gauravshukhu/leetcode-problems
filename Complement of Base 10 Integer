@@ -1,6 +1,7 @@
-class Solution {
-public:
-    int bitwiseComplement(int n) {
+#include<iostream>
+using namespace std;
+int main (  
+int bitwiseComplement(int n) {
         int m = n;
         int mask = 0;
         // edge case
@@ -14,4 +15,5 @@ public:
 
         return ans;
     }
-};
+)
+   
